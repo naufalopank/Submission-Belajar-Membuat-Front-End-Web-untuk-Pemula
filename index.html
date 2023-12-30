@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookshelf App</title>
+</head>
+<body>
+    <h1>Bookshelf App</h1>
+    <div id="app">
+        <div>
+            <h2>Belum selesai dibaca</h2>
+            <ul id="unfinished-books"></ul>
+            <input type="text" id="title" placeholder="Judul">
+            <input type="text" id="author" placeholder="Penulis">
+            <input type="number" id="year" placeholder="Tahun">
+            <button onclick="addBook()">Tambah Buku</button>
+        </div>
+        <div>
+            <h2>Selesai dibaca</h2>
+            <ul id="finished-books"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
